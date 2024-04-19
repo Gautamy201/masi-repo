@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  margin: 20px 10%;
+}
+.todo_contener button {
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.todoApp_conents-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+.todo {
+  border: 1px solid black;
+  display: flex;
+  gap: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  align-items: center;
+  text-align: left;
+}
